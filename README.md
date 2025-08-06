@@ -152,12 +152,6 @@ If using Docker:
 docker-compose up --build
 ```
 
-Or with docker-compose:
-
-```bash
-docker compose up --build
-```
-
 ---
 
 ## 🛑 How To Stop
