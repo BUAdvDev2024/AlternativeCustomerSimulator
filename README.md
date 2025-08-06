@@ -2,6 +2,8 @@
 
 A customer action simulator responsible for simulating user actions via HTTP requests to various microservice APIs.
 
+[![Tech Stack](https://img.shields.io/badge/tech%20stack-Python,Docker-blue)](https://shields.io)
+
 > Open a pull request, create an issue, or contact the lead developer directly to make changes to this repository.
 
 ---
