@@ -1,0 +1,12 @@
+actions:
+  - name: "PlaceOrder"
+    behaviour: "simulator/actions/place_order.py"
+    auth_key: "INSERT_AUTH_KEY"
+    base_url: "https://httpbin.org/"
+  - name: "CancelOrder"
+    behaviour: "simulator/actions/cancel_order.py"
+    auth_key: "INSERT_AUTH_KEY"
+    base_url: "https://httpbin.org/"
+  - name: "ExampleAction"
+    behaviour: "simulator/actions/action_behaviour_template.py"
+    base_url: "https://httpbin.org/post"

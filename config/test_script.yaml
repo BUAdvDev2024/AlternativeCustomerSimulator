@@ -1,0 +1,17 @@
+min_workers: 3
+max_workers: 20
+keep_alive_seconds: 5
+generate_rate: 10
+
+sequences:
+  - name: PlaceThenCancel
+    actions:
+      - name: PlaceOrder
+        delay: 0
+      - name: CancelOrder
+        delay: 1
+
+  - name: PlaceOnly
+    actions:
+      - name: PlaceOrder
+        delay: 0
