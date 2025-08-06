@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  customer_simulator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: customer_simulator
+    restart: unless-stopped

@@ -122,6 +122,13 @@ sequences:
 
 To run the simulator against your microservices:
 
+Pre-requisite:
+- Clone Repo:
+```bash
+git clone https://github.com/BUAdvDev2024/AlternativeCustomerSimulator.git
+cd AlternativeCustomerSimulator
+```
+
 1. Define customer actions in `config/actions.yaml`
 2. Implement the behavior logic using `action_template_behaviour.py`
 3. Add customer accounts to `config/customers.yaml`
@@ -129,8 +136,26 @@ To run the simulator against your microservices:
 5. Add your desired action sequences
 6. Start the simulator:
 
+If using Python:
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+2. Start application:
 ```bash
 python main.py
+```
+
+If using Docker:
+1. Run using Docker:
+```bash
+docker-compose up --build
+```
+
+Or with docker-compose:
+
+```bash
+docker compose up --build
 ```
 
 ---
